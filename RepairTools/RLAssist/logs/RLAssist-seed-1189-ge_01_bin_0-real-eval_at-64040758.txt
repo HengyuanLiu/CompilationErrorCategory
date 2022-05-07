@@ -1,0 +1,103 @@
+
+
+-----------------------| Started logging at: Feb 24 2021 19:53:33 |----------------------- 
+
+COMMAND: neural_net/agent.py data/network_inputs/RLAssist-seed-1189/bin_0/ data/checkpoints/RLAssist-seed-1189/bin_0/ -eval 64040758
+normalized vocab size: 91 num_actions: 13
+Left 4 spare cores, running training only on the following cores: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27] 
+
+
+Original-Dataset-size- | TRAIN:164477 | VALID:27434 | TEST:8166
+Controlled-Dataset-size- | TRAIN:164477 | REAL-TEST:1395 | TEST:8166 | GE_TRAIN:0
+
+ckpt_dir: data/checkpoints/RLAssist-seed-1189-ge_01/bin_0/
+num_workers: 32
+GE_selection_probability: 0
+restoring at: 64040758
+----- evaluating WITH edit rejection ------
+real eval_data_size:1395, num_eval_workers:28, eval_batch_size:49
+Starting evaluator thread 0  with a batch of 49 (0-49) episodes
+Starting evaluator thread 1  with a batch of 49 (49-98) episodes
+Starting evaluator thread 2  with a batch of 49 (98-147) episodes
+Starting evaluator thread 3  with a batch of 49 (147-196) episodes
+Starting evaluator thread 4  with a batch of 49 (196-245) episodes
+Starting evaluator thread 5  with a batch of 49 (245-294) episodes
+Starting evaluator thread 6  with a batch of 49 (294-343) episodes
+Starting evaluator thread 7  with a batch of 49 (343-392) episodes
+Starting evaluator thread 8  with a batch of 49 (392-441) episodes
+Starting evaluator thread 9  with a batch of 49 (441-490) episodes
+Starting evaluator thread 10 with a batch of 49 (490-539) episodes
+Starting evaluator thread 11 with a batch of 49 (539-588) episodes
+Starting evaluator thread 12 with a batch of 49 (588-637) episodes
+Starting evaluator thread 13 with a batch of 49 (637-686) episodes
+Starting evaluator thread 14 with a batch of 49 (686-735) episodes
+Starting evaluator thread 15 with a batch of 49 (735-784) episodes
+Starting evaluator thread 16 with a batch of 49 (784-833) episodes
+Starting evaluator thread 17 with a batch of 49 (833-882) episodes
+Starting evaluator thread 18 with a batch of 49 (882-931) episodes
+Starting evaluator thread 19 with a batch of 49 (931-980) episodes
+Starting evaluator thread 20 with a batch of 49 (980-1029) episodes
+Starting evaluator thread 21 with a batch of 49 (1029-1078) episodes
+Starting evaluator thread 22 with a batch of 49 (1078-1127) episodes
+Starting evaluator thread 23 with a batch of 49 (1127-1176) episodes
+Starting evaluator thread 24 with a batch of 49 (1176-1225) episodes
+Starting evaluator thread 25 with a batch of 49 (1225-1274) episodes
+Starting evaluator thread 26 with a batch of 49 (1274-1323) episodes
+Starting evaluator thread 27 with a batch of 72 (1323-1395) episodes
+REAL || T:0 | ep_lens:42.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:42.0 (spuriousM:1.0 ,   2.4%) | ep_rewards:-0.21 | Errs:1  | Fixes:0  (0.0  %) | F_progs:0 | PF_progs:0
+REAL || T:0 | ep_lens:37.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.21 | Errs:3  | Fixes:0  (0.0  %) | F_progs:0 | PF_progs:0
+REAL || T:0 | ep_lens:56.0 | edits:4.0  (spuriousE:2.0 ,  50.0%) | moves:52.0 (spuriousM:1.0 ,   1.9%) | ep_rewards:-0.30 | Errs:7  | Fixes:4  (57.1 %) | F_progs:0 | PF_progs:1
+REAL || T:0 | ep_lens:34.0 | edits:2.0  (spuriousE:0.0 ,   0.0%) | moves:32.0 (spuriousM:1.0 ,   3.1%) | ep_rewards:-0.14 | Errs:6  | Fixes:3  (50.0 %) | F_progs:0 | PF_progs:2
+REAL || T:0 | ep_lens:9.0  | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:8.0  (spuriousM:0.0 ,   0.0%) | ep_rewards:0.93  | Errs:1  | Fixes:1  (100.0%) | F_progs:1 | PF_progs:2
+REAL || T:0 | ep_lens:24.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:23.0 (spuriousM:1.0 ,   4.3%) | ep_rewards:-0.11 | Errs:2  | Fixes:1  (50.0 %) | F_progs:1 | PF_progs:3
+REAL || T:0 | ep_lens:42.0 | edits:5.0  (spuriousE:4.0 ,  80.0%) | moves:37.0 (spuriousM:1.0 ,   2.7%) | ep_rewards:-0.30 | Errs:3  | Fixes:1  (33.3 %) | F_progs:1 | PF_progs:4
+REAL || T:0 | ep_lens:22.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:21.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.86  | Errs:1  | Fixes:1  (100.0%) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:21.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:21.0 (spuriousM:1.0 ,   4.8%) | ep_rewards:-0.11 | Errs:1  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:32.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:31.0 (spuriousM:1.0 ,   3.2%) | ep_rewards:-0.19 | Errs:1  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:21.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:21.0 (spuriousM:1.0 ,   4.8%) | ep_rewards:-0.11 | Errs:1  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:36.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.18 | Errs:2  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:35.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:34.0 (spuriousM:1.0 ,   2.9%) | ep_rewards:-0.20 | Errs:4  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:36.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.18 | Errs:5  | Fixes:0  (0.0  %) | F_progs:2 | PF_progs:4
+REAL || T:0 | ep_lens:42.0 | edits:2.0  (spuriousE:0.0 ,   0.0%) | moves:40.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.78  | Errs:6  | Fixes:6  (100.0%) | F_progs:3 | PF_progs:4
+REAL || T:0 | ep_lens:40.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:39.0 (spuriousM:1.0 ,   2.6%) | ep_rewards:-0.23 | Errs:5  | Fixes:0  (0.0  %) | F_progs:3 | PF_progs:4
+REAL || T:0 | ep_lens:36.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.18 | Errs:2  | Fixes:0  (0.0  %) | F_progs:3 | PF_progs:4
+REAL || T:0 | ep_lens:44.0 | edits:11.0 (spuriousE:11.0, 100.0%) | moves:33.0 (spuriousM:2.0 ,   6.1%) | ep_rewards:-0.50 | Errs:1  | Fixes:0  (0.0  %) | F_progs:3 | PF_progs:4
+REAL || T:0 | ep_lens:57.0 | edits:2.0  (spuriousE:0.0 ,   0.0%) | moves:55.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.70  | Errs:4  | Fixes:4  (100.0%) | F_progs:4 | PF_progs:4
+REAL || T:0 | ep_lens:20.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:19.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.88  | Errs:1  | Fixes:1  (100.0%) | F_progs:5 | PF_progs:4
+REAL || T:0 | ep_lens:24.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:23.0 (spuriousM:1.0 ,   4.3%) | ep_rewards:-0.15 | Errs:4  | Fixes:0  (0.0  %) | F_progs:5 | PF_progs:4
+REAL || T:0 | ep_lens:35.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:34.0 (spuriousM:1.0 ,   2.9%) | ep_rewards:-0.16 | Errs:17 | Fixes:1  (5.9  %) | F_progs:5 | PF_progs:5
+REAL || T:0 | ep_lens:36.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:35.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.79  | Errs:4  | Fixes:4  (100.0%) | F_progs:6 | PF_progs:5
+REAL || T:0 | ep_lens:28.0 | edits:2.0  (spuriousE:0.0 ,   0.0%) | moves:26.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.85  | Errs:2  | Fixes:2  (100.0%) | F_progs:7 | PF_progs:5
+REAL || T:0 | ep_lens:36.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.18 | Errs:2  | Fixes:0  (0.0  %) | F_progs:7 | PF_progs:5
+REAL || T:0 | ep_lens:29.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:29.0 (spuriousM:1.0 ,   3.4%) | ep_rewards:-0.15 | Errs:1  | Fixes:0  (0.0  %) | F_progs:7 | PF_progs:5
+REAL || T:0 | ep_lens:45.0 | edits:2.0  (spuriousE:2.0 , 100.0%) | moves:43.0 (spuriousM:1.0 ,   2.3%) | ep_rewards:-0.28 | Errs:1  | Fixes:0  (0.0  %) | F_progs:7 | PF_progs:5
+REAL || T:0 | ep_lens:40.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:39.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.77  | Errs:2  | Fixes:2  (100.0%) | F_progs:8 | PF_progs:5
+REAL || T:0 | ep_lens:33.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:32.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.81  | Errs:1  | Fixes:1  (100.0%) | F_progs:9 | PF_progs:5
+REAL || T:0 | ep_lens:15.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:14.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.90  | Errs:3  | Fixes:3  (100.0%) | F_progs:10 | PF_progs:5
+REAL || T:0 | ep_lens:18.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:18.0 (spuriousM:1.0 ,   5.6%) | ep_rewards:-0.09 | Errs:2  | Fixes:0  (0.0  %) | F_progs:10 | PF_progs:5
+REAL || T:0 | ep_lens:24.0 | edits:2.0  (spuriousE:1.0 ,  50.0%) | moves:22.0 (spuriousM:1.0 ,   4.5%) | ep_rewards:-0.13 | Errs:5  | Fixes:1  (20.0 %) | F_progs:10 | PF_progs:6
+REAL || T:0 | ep_lens:12.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:11.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.92  | Errs:1  | Fixes:1  (100.0%) | F_progs:11 | PF_progs:6
+REAL || T:0 | ep_lens:27.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:26.0 (spuriousM:1.0 ,   3.8%) | ep_rewards:-0.16 | Errs:1  | Fixes:0  (0.0  %) | F_progs:11 | PF_progs:6
+REAL || T:0 | ep_lens:31.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:31.0 (spuriousM:1.0 ,   3.2%) | ep_rewards:-0.16 | Errs:1  | Fixes:0  (0.0  %) | F_progs:11 | PF_progs:6
+REAL || T:0 | ep_lens:34.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:34.0 (spuriousM:1.0 ,   2.9%) | ep_rewards:-0.17 | Errs:1  | Fixes:0  (0.0  %) | F_progs:11 | PF_progs:6
+REAL || T:0 | ep_lens:25.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:25.0 (spuriousM:1.0 ,   4.0%) | ep_rewards:-0.13 | Errs:3  | Fixes:0  (0.0  %) | F_progs:11 | PF_progs:6
+REAL || T:0 | ep_lens:58.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:57.0 (spuriousM:1.0 ,   1.8%) | ep_rewards:-0.28 | Errs:2  | Fixes:1  (50.0 %) | F_progs:11 | PF_progs:7
+REAL || T:0 | ep_lens:24.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:23.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.85  | Errs:2  | Fixes:2  (100.0%) | F_progs:12 | PF_progs:7
+REAL || T:0 | ep_lens:38.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:37.0 (spuriousM:1.0 ,   2.7%) | ep_rewards:-0.22 | Errs:2  | Fixes:0  (0.0  %) | F_progs:12 | PF_progs:7
+REAL || T:0 | ep_lens:51.0 | edits:14.0 (spuriousE:14.0, 100.0%) | moves:37.0 (spuriousM:1.0 ,   2.7%) | ep_rewards:-0.61 | Errs:1  | Fixes:0  (0.0  %) | F_progs:12 | PF_progs:7
+REAL || T:0 | ep_lens:37.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:36.0 (spuriousM:1.0 ,   2.8%) | ep_rewards:-0.17 | Errs:3  | Fixes:1  (33.3 %) | F_progs:12 | PF_progs:8
+REAL || T:0 | ep_lens:29.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:28.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.83  | Errs:1  | Fixes:1  (100.0%) | F_progs:13 | PF_progs:8
+REAL || T:0 | ep_lens:38.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:37.0 (spuriousM:1.0 ,   2.7%) | ep_rewards:-0.22 | Errs:1  | Fixes:0  (0.0  %) | F_progs:13 | PF_progs:8
+REAL || T:0 | ep_lens:16.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:15.0 (spuriousM:1.0 ,   6.7%) | ep_rewards:-0.11 | Errs:1  | Fixes:0  (0.0  %) | F_progs:13 | PF_progs:8
+REAL || T:0 | ep_lens:32.0 | edits:1.0  (spuriousE:1.0 , 100.0%) | moves:31.0 (spuriousM:1.0 ,   3.2%) | ep_rewards:-0.19 | Errs:3  | Fixes:0  (0.0  %) | F_progs:13 | PF_progs:8
+REAL || T:0 | ep_lens:48.0 | edits:5.0  (spuriousE:3.0 ,  60.0%) | moves:43.0 (spuriousM:1.0 ,   2.3%) | ep_rewards:-0.29 | Errs:5  | Fixes:3  (60.0 %) | F_progs:13 | PF_progs:9
+REAL || T:0 | ep_lens:12.0 | edits:1.0  (spuriousE:0.0 ,   0.0%) | moves:11.0 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.92  | Errs:1  | Fixes:1  (100.0%) | F_progs:14 | PF_progs:9
+REAL || T:0 | ep_lens:21.0 | edits:0.0  (spuriousE:0.0 ,   0.0%) | moves:21.0 (spuriousM:1.0 ,   4.8%) | ep_rewards:-0.11 | Errs:1  | Fixes:0  (0.0  %) | F_progs:14 | PF_progs:9
+
+======= SUMMARY_REAL (all) || GE:0 | episodes:1395 | ep_lens:31.0 | edits:1.8  (spuriousE:1.2 ,  64.3%) | moves:29.1 (spuriousM:0.7 ,   2.6%) | ep_rewards:0.11  | Errs:3359 | Fixes:1394 (41.5 %) | F_progs:408 | PF_progs:285
+
+======= SUMMARY_REAL (fix) || GE:0 | episodes:408 | ep_lens:23.0 | edits:1.4  (spuriousE:0.1 ,   9.8%) | moves:21.6 (spuriousM:0.0 ,   0.0%) | ep_rewards:0.86  | Errs:787 | Fixes:787 (100.0%) |
+
+======= SUMMARY_REAL (unfix) || GE:0 | episodes:987 | ep_lens:34.3 | edits:2.0  (spuriousE:1.6 ,  80.1%) | moves:32.3 (spuriousM:1.1 ,   3.3%) | ep_rewards:-0.21 | Errs:2572 | Fixes:607 (23.6 %) |
+
+

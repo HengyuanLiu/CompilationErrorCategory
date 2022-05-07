@@ -1,0 +1,4 @@
+train.sh: 2: train.sh: Syntax error: word unexpected (expecting "do")
+./train.sh: 2: ./train.sh: Syntax error: word unexpected (expecting "do")
+./train.sh: 2: ./train.sh: Syntax error: word unexpected (expecting "do")
+./train.sh: 2: ./train.sh: Syntax error: word unexpected (expecting "do")
