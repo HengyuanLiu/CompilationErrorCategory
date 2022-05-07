@@ -1,4 +1,4 @@
-# CompilationErrorRepair-EmpiricalStudy
+# CompilationErrorCategory
 
 This is the code repository for an empirical study of compilation error repair tools. This work is extended from our previous study(compilation error classfier):
 
